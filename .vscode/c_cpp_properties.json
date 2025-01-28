@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "AVR",
+            "includePath": [
+              "${workspaceFolder}/**",
+              "/usr/lib/avr/include"   // For Linux
+            ],
+            "defines": [
+              "__AVR_ATmega328P__"          // Define your MCU
+            ],
+            "compilerPath": "/usr/bin/avr-gcc",  // Adjust the path to the AVR GCC compiler
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+          }
+    ],
+    "version": 4
+}
